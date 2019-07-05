@@ -1,5 +1,6 @@
 import unittest
 import time
+from HTMLTestReportCN import HTMLTestRunner
 from libs.tools import (send_email,GetNewReport )
 from config.Secret import (email_account,email_to_account,email_port,email_pwd)
 
